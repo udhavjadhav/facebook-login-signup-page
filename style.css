@@ -1,0 +1,63 @@
+*{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 50px;
+    /* border: 1px solid gray;
+    width: 40vw;
+    height: 70vh; */
+}
+.img{
+   width: 240px;
+}
+.user-input, .pass-input{
+    width: 580px;
+    padding: 14px;
+    border-radius: 2px;
+    background-color: rgba(211, 211, 211, 0.124);
+    color: gray;
+    border: none;
+    box-shadow: 0px 1px;
+}
+
+.login-btn{
+    width: 600px;
+    padding: 14px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.forget{
+    text-decoration: none;
+    color: #1877f2;
+}
+.create-btn{
+    width: 550px;
+    padding: 12px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.create-btn:hover{
+    background-color: #000;
+    color: #fff;
+    font-weight: bolder;
+}
